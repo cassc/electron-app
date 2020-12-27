@@ -1,0 +1,34 @@
+body{
+}
+
+.box, .ball{
+    width: 50px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.box {
+    background-color: blue;
+    left: 50px;
+    top: 50px;
+}
+
+.ball {
+    border-radius: 10000px;
+    background-color: green;
+    top: 50px;
+    right: 50px;
+}
+
+.background{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    border-bottom: 50px solid grey;
+}

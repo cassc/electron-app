@@ -1,0 +1,11 @@
+{
+  "data": {
+    "Home": [
+      "/org/bluez/hci0/dev_10_38_C1_00_00_0C/service0020/char0027",
+      false
+    ]
+  },
+  "from": "ble",
+  "target": "ui,api,ide",
+  "tpe": "ble.event.data"
+}
